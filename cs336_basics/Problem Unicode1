@@ -1,0 +1,6 @@
+(a) What Unicode character does chr(0) return?
+Answer:'\x00'
+(b)How does this character's string representation(__repr__()) differ from its printed representation?
+Answer:For chr(0), the character's string representation is "'\\x00'", the printed representation is empty.
+(c) What happens when this character occurs in text?
+In python, it will as a NUL,它存在在文本里,但是不会显现,不会呈现.
